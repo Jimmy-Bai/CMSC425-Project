@@ -1,5 +1,5 @@
 # CMSC425 Game Programming Final Project
-This is the final game programming project for CMSC425. It is not fully completed yet since I only have around 4 weeks to finish this. I plan to go back and work on this in the future.
+This is the final game programming project for CMSC425. This was meant to be a group project, but I want to see how far I can go if I work alone. Below is the results of 4 weeks of non stop working. There were alot of frustrating times while I was debugging, but seeing my efforst came to live was rewarding. All in all, I had tremendous fun while doing this project. It is not fully completed yet since I only have around 4 weeks to finish this. I plan to go back and work on this in the future.
 
 ## Team member
 Just me.
