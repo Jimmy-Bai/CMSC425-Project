@@ -21,4 +21,4 @@ There is a caveat of serialization. It can only serialize basic types such as Bo
 
 The save file structure is very simple. I have a Main game data that holds two other datasets: player data and dungeon data. Player data holds player information such as last known location, stats, name, which floor did the player visits, what floor the player is on, etc. Dungeon data holds the structure of the platform that the player is in, as well as the location of the enemies, location of the background, and the number of enemies left. This is important since the dungeon in this game is procedurally generated, and saving is required to not cause an error. Below is a graph structure of what the main game data save file looks like:
 
-![alt text](https://imgur.com/kj5haco)
+![alt text](https://i.imgur.com/kj5haco.png)
