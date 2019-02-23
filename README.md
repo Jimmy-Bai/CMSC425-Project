@@ -126,3 +126,8 @@ For this game, I created a few of the models using Blender. I created the basic 
 ### Known issues and bugs
 There is one issue right now. If the player is in the dungeon and decides to go back to the main menu without saving, in theory, the player didn’t save. However, the player will actually spawn in a random location, not on the platform. If the player saves before going to the main menu, there should be no problem. 
 
+### External resources
+I used a lot of external resources and tutorial for this project. In particular, the POLYGON Adventure pack makes up a large portion of my environment, and the shader I use for most of my material is from Toony Color Pro 2. The main character is also a Unity asset call Unity-Chan!. I put all the links I used in the source file.
+
+### Video
+https://drive.google.com/open?id=16hUM0c9kNnY4WolUCNVSypiTgoU0HC0G
