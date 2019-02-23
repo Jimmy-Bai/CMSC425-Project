@@ -85,15 +85,6 @@ A similar process is used for the dungeon. I first build the basic platform, the
   <i>Figure 3c. Town NavMeshSurface without any of the game assets</i>
 </p>
 
-A similar process is used for the dungeon. I first build the basic platform, then bake the NavMeshSurface at runtime, then populate the dungeon with other assets. One thing to note here, the stairs are baked differently than any other object. In order to allow the player and enemies to move smoothly up and down the stairs, the stair is comprised of two game objects: one being the actual model of the stairs, and one being a slope with the same degree of incline. The NavMeshAgent will bake the NavMeshSurface before the stairs are populated. This method works for the town, but not in the dungeon. In the dungeon, in order to save time and minimize complexity, the stairs object is spawned as a single game object. However, I put the actual stair model under a different layer other than default and tells the NavMeshAgent to bake all child except that layer. This gives me the result I want. 
-
-<p align="center">
-  <img src="https://imgur.com/ZwbFp4c.png"/>
-</p>
-<p align="center">  
-  <i>Figure 4. The stair model. The oragne outline is where the slope is</i>
-</p>
-
 #### Camera
 Since there are two types of environment style, the camera needs to be different. The camera controller is all under one script, with a boolean that tells the camera if it is an in-town style or in dungeon style. The in-town style camera is fairly simple. It follows the player along the x and y-axis, and the player can zoom by moving the camera along the z-axis. The dungeon camera, however, is more complicated. In order to allow the player to rotate the camera, there was a lot of settings that I had to play with in order to get an optimal camera rotation and translation. In the end, the camera is able to rotate around the player, zooming in and moving a lot of the player. It covers a hemisphere around the player. 
 
