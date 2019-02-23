@@ -1,0 +1,28 @@
+### Unity Assets 
+POLYGON - Adventure Pack – https://assetstore.unity.com/packages/3d/environments/fantasy/polygon-adventure-pack-80585?aid=1100lHop&utm_source=aff
+Unity-chan - https://assetstore.unity.com/packages/3d/characters/optimize-sd-kohaku-chanz-84992
+NavMeshSurface - https://github.com/Unity-Technologies/NavMeshComponents
+Unity Post Processing Stack - https://docs.unity3d.com/Manual/PostProcessing-Stack.html
+EZ Camera Shake - https://assetstore.unity.com/packages/tools/camera/ez-camera-shake-33148
+Unity Standard Assets - https://assetstore.unity.com/packages/essentials/asset-packs/standard-assets-32351
+
+### Tutorials
+Menu tutorial - https://unity3d.com/learn/tutorials/topics/user-interface-ui/creating-main-menu
+Persistence save file tutorial - https://unity3d.com/learn/tutorials/topics/scripting/persistence-saving-and-loading-data
+Saving and Loading - https://gamedevelopment.tutsplus.com/tutorials/how-to-save-and-load-your-players-progress-in-unity--cms-20934
+Serializable Vector3 and quaternion - https://answers.unity.com/questions/956047/serialize-quaternion-or-vector3.html
+Blender Import - https://gamedevacademy.org/how-to-import-blender-models-into-unity-your-one-stop-guide/
+Random Platform Generator - https://forum.unity.com/threads/quick-maze-generator.173370/
+C# getters and setters - https://answers.unity.com/questions/556033/c-setter-getters.html
+Blender PDF - https://s3.amazonaws.com/ezs3ac34a26aa3f5ce6650303da779cb7c9b/Blender+Guru/BlenderGuru_KeyboardShortcutGuide_v2.pdf
+DFS Maze - https://forum.unity.com/threads/quick-maze-generator.173370/
+NavMesh at runtime - https://www.youtube.com/watch?v=FkLJ45Pt-mY&t=356s
+Low poly tree tutorial - https://www.youtube.com/watch?v=wB0VgyN8tOw
+Character controller - https://www.youtube.com/watch?v=cVy-NTjqZR8
+Exploding effect - https://youtu.be/oqidgRQAMB8?t=1086
+One world space canvs enemy UI - https://www.youtube.com/watch?v=7CGejTHPvU4
+Lighting the scene - https://www.youtube.com/watch?v=IkRMMcPBFsc
+Various component from RPG series - https://www.youtube.com/watch?v=nu5nyrB9U_o&list=PLPV2KyIb3jR4KLGCCAciWQ5qHudKtYeP7
+Enemy knock back - https://www.grimoirehex.com/unity-3d-combat-nav-mesh-knockback/
+Scene fader - https://www.youtube.com/watch?v=Oadq-IrOazg
+Switching between NavMeshAgent and NavMeshObstacles - https://www.reddit.com/r/Unity3D/comments/8apg69/navmesh_agents_avoidance_of_other_agents/
