@@ -48,6 +48,9 @@ Both town and dungeon use two different types of environment. The town is more o
   <i>Figure 2b. Town</i>
 </p>
 
+The dungeon, on the other hand, is procedurally generated. This as done using the good-old breadth-first-search. First, I specify the width to length ratio I want for the maze. I made this maze to be a long rectangle, so the height to width have a 2:1 ratio. I set up a graph matrix using the width and length I specify, and the program will run BFS starting from the center node. This will discover a path that crosses every single cell in the graph matrix. The next step is to expand it. If I would just to spawn prefabs at the current locations now, the maze will look like a giant slab of the ground. So I expand the matrix by a multiplier of 5. This allows a path to show, and also allows me to add more environment assets. Next step was to spawn the platform where enemies will spawn. I calculated where I want the platforms to spawn by spawning them at the end of a path. To ensure that there is at least 7 platforms in each dungeon, I ran BFS on the first step until I have at least 7 endpoints. The last step was to place the entrance and exit assets, spawn the environment prefabs, and add in the enemies. 
+
+#### NavMeshSurface
 To allow the player and enemies to move around, both town and dungeon have a NavMeshSurface that bakes it NavMesh. In town scene, since there is only one town and the structure does not change, the NavMesh can be baked ahead of time. 
 
 <p align="center">
